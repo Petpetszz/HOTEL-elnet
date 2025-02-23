@@ -531,6 +531,7 @@ button:hover {
         padding: 20px;
     }
 
+
     .facility-card.reverse {
         flex-direction: column-reverse;
     }
