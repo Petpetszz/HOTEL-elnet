@@ -84,27 +84,30 @@ nav img{
     width: 100%;
 }
 
-.text-box{
-    width: 90%;
+/* ======= General Styles ======= */
+.text-box {
+    width: 100%;
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
+    margin-top: 70px;
 }
 
-.text-box h1{
+.text-box h1 {
     font-size: 62px;
 }
 
-.text-box p{
+.text-box p {
     margin: 10px 0 40px;
     font-size: 14px;
     color: #fff;
 }
 
-.hero-btn{
+/* ======= Hero Button Styles ======= */
+.hero-btn {
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -116,24 +119,35 @@ nav img{
     cursor: pointer;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
     border: 1px solid #EFDCAB;
     background: #EFDCAB;
     transition: 1s;
 }
 
-nav .fa-solid{
+/* ======= Navigation Bar Styles ======= */
+nav .fa-solid {
     display: none;
 }
 
-@media(max-width: 700px) {
-    .text-box h1{
-        font-size: 20px;
+/* ======= Responsive Styles (Max Width: 700px) ======= */
+@media (max-width: 700px) {
+    /* Responsive Text */
+    .text-box h1 {
+        font-size: 28px;
     }
-    .nav-links ul li{
-        display: block;
+
+    .text-box {
+        width: 90%;  
+        margin-top: 50px;
     }
-    .nav-links{
+
+    .text-box p {
+        font-size: 12px;  
+        margin: 5px 0 20px; 
+    }
+
+    .nav-links {
         position: absolute;
         background: #EFDCAB;
         height: 100vh;
@@ -144,21 +158,27 @@ nav .fa-solid{
         z-index: 2;
         transition: 1s;
     }
-    nav .fa-solid{
+
+    .nav-links ul {
+        padding: 30px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    nav .fa-solid {
         display: block;
         color: #EFDCAB;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
     }
-    nav .fa-xmark{
+
+    nav .fa-xmark {
         color: #000;
     }
-    .nav-links ul{
-        padding: 30px;
-    }
 }
-
 /* ----- end of navbar ----- */
 
 /* ----- about ------*/
