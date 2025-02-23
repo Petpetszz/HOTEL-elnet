@@ -254,8 +254,6 @@ h2 {
     text-align: center;
     padding: 60px;
     gap: 30px; 
-
-    /* Background Image with Transparent Overlay */
     background: url("images/junior-suite.jpg") center/cover no-repeat;
     position: relative;
 }
@@ -285,19 +283,19 @@ h2 {
     margin-bottom: 10px;
     display: block;
     text-align: center;
-    color: white; /* Make icons visible on dark background */
+    color: white;
 }
 
 .feature h3 {
     font-size: 20px;
-    color: white; /* Adjust text color */
+    color: white; 
     font-weight: 400;
     margin-bottom: 10px;
 }
 
 .features p {
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+    color: rgba(255, 255, 255, 0.8);
     line-height: 1.5;
     min-height: 60px;
     text-align: justify;
@@ -382,8 +380,8 @@ h2 {
 .room p {
     font-size: 14px;
     color: #555;
-    margin: 10px 0; /* Increased margin for better spacing */
-    line-height: 1.8; /* Improved readability */
+    margin: 10px 0; 
+    line-height: 1.8;
 }
 
 .room a {
@@ -433,7 +431,7 @@ h2 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 20px; /* Added side padding */
+    padding: 0 20px; 
 }
 
 /* Facility Card - Desktop Layout */
@@ -472,7 +470,7 @@ h2 {
     color: #888888;
     margin-bottom: 20px;
     line-height: 1.8;
-    padding: 0 20px; /* Added side padding */
+    padding: 0 20px; 
 }
 
 /* Button Styling */
@@ -498,10 +496,10 @@ button:hover {
     flex-direction: row-reverse;
 }
 
-/* ----- Responsive Fixes ----- */
+
 @media (max-width: 1024px) {
     .facility-card {
-        flex-direction: row; /* Keep side-by-side for tablets */
+        flex-direction: row;
         height: auto;
     }
 
@@ -517,14 +515,14 @@ button:hover {
 /* Mobile Screens */
 @media (max-width: 768px) {
     .facility-card {
-        flex-direction: column; /* Stack properly */
+        flex-direction: column; 
         max-width: 90%;
         height: auto;
     }
 
     .facility-card img {
         width: 100%;
-        height: 250px; /* Keep image from getting too large */
+        height: 250px;
     }
 
     .facility-info {
@@ -533,7 +531,6 @@ button:hover {
         padding: 20px;
     }
 
-    /* Fix: Ensure the image is always on top */
     .facility-card.reverse {
         flex-direction: column-reverse;
     }
@@ -630,7 +627,7 @@ button:hover {
 /* Footer Container - Desktop Layout */
 .footer-container {
     display: flex;
-    flex-wrap: wrap; /* Ensures columns wrap on smaller screens */
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
@@ -638,8 +635,8 @@ button:hover {
 
 /* Footer Columns */
 .footer-column {
-    flex: 1; /* Allows columns to adjust dynamically */
-    min-width: 200px; /* Prevents excessive shrinking */
+    flex: 1; 
+    min-width: 200px; 
     margin-bottom: 20px;
 }
 
