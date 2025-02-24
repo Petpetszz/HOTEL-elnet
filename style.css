@@ -826,7 +826,7 @@ button:hover {
     font-size: clamp(14px, 2.5vw, 16px);
     line-height: 1.8;
     margin-bottom: 15px;
-    color: #555;
+    color: #888888;
 }
 
 /* List Styling */
