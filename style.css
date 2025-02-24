@@ -801,6 +801,7 @@ button:hover {
     text-align: center;
     padding: 5vw 5%;  /* Responsive padding */
     background-color: white;
+    overflow-x: hidden;
 }
 
 /* Container */
