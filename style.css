@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     -webkit-tap-highlight-color: transparent;
-    outline: none; /* Removes the default focus outline */
+    outline: none;
 }
 
 html,
@@ -828,7 +828,7 @@ button:hover {
     font-size: clamp(14px, 2.5vw, 16px);
     line-height: 1.8;
     margin-bottom: 15px;
-    color: #888888;
+    color: #888;
 }
 
 /* List Styling */
