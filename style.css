@@ -782,6 +782,149 @@ button:hover {
     }
 }
 
+/* About Us Page */
+
+.sub-header{
+    height: 60vh;
+    width: 100%;
+    background-image: url(images/aboutbanner.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+/* About Us Section */
+.about-us {
+    text-align: center;
+    padding: 5vw 5%;  /* Responsive padding */
+    background-color: white;
+}
+
+/* Container */
+.about-us .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px; /* Added padding for small screens */
+}
+
+/* Headings */
+.about-us h1 {
+    font-size: clamp(24px, 4vw, 32px); /* Responsive font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    font-size: clamp(18px, 3vw, 22px);
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/* Paragraphs */
+.about-us p {
+    font-size: clamp(14px, 2.5vw, 16px);
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* List Styling */
+.about-us ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.about-us ul li {
+    font-size: clamp(14px, 2.5vw, 16px);
+    line-height: 1.6;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Bold & Italics */
+.about-us strong {
+    font-weight: bold;
+    color: #222;
+}
+
+.about-us em {
+    font-style: italic;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-us {
+        padding: 40px 15px; /* Reduced padding */
+    }
+
+    .about-us .container {
+        margin: 30px auto;
+    }
+
+    .about-us h1 {
+        font-size: 24px;
+    }
+
+    .about-us h2 {
+        font-size: 18px;
+    }
+
+    .about-us p {
+        font-size: 14px;
+    }
+
+    .about-us ul li {
+        font-size: 14px;
+    }
+}
+
+/* Scroll to top Button */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;            
+    align-items: center;      
+    justify-content: center;  
+    cursor: pointer;
+    
+    width: 50px;   
+    height: 50px;  
+    background-color: #333;  
+    border-radius: 50%;  
+    border: none; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Icon Styling */
+#scrollToTopBtn .fa-arrow-up {
+    font-size: 20px; 
+    color: white; 
+}
+
+/* Show only on mobile screens */
+@media (max-width: 768px) {
+    #scrollToTopBtn {
+        display: flex;  
+    }
+}
+
+/* Hover effect */
+#scrollToTopBtn:hover {
+    background-color: #555; /* Slightly lighter on hover */
+}
+
+/* Hide when user scrolls to the top */
+#scrollToTopBtn.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(10px);
+}
+
 
 
 

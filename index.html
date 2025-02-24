@@ -29,7 +29,7 @@
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                     <li><a href="#">FACILITIES</a></li>
                     <li><a href="#">GALLERY</a></li>
                 </ul>
@@ -241,8 +241,10 @@
     <div class="footer-bottom">
         <p>Copyright © 2025 Petrosia Hotel. All rights reserved.</p>
     </div>
-        
 <!-----End of Footer Section----->
+
+
+    <button id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
 
 
 
@@ -299,6 +301,28 @@
         easing: "ease-in-out",
         once: true       // Ensures animations trigger only once
         });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        // Show/hide button when scrolling
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 300) {
+                scrollToTopBtn.classList.remove("hidden");
+            } else {
+                scrollToTopBtn.classList.add("hidden");
+            }
+        });
+
+        // Scroll to top when button is clicked
+        scrollToTopBtn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    });
 
     </script>
 
