@@ -9,6 +9,7 @@
 html,
 body{
     overflow-x: hidden;
+    width: 100%;
 }
 
 .header {
@@ -808,7 +809,6 @@ button:hover {
     max-width: 1000px;
     margin: auto;
     padding: 0 20px; /* Added padding for small screens */
-    overflow-x: hidden;
 }
 
 /* Headings */
@@ -881,9 +881,6 @@ button:hover {
 
     .about-us ul li {
         font-size: 14px;
-    }
-    body {
-        overflow-x: hidden; /* Ensure hidden on mobile */
     }
 }
 
