@@ -899,7 +899,10 @@ button:hover {
     border-radius: 50%;  
     border: none; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.8); /* Initially small */
 }
 
 /* Icon Styling */
@@ -915,17 +918,26 @@ button:hover {
     }
 }
 
-/* Hover effect */
+/* Hover effect with bounce */
 #scrollToTopBtn:hover {
-    background-color: #555; /* Slightly lighter on hover */
+    background-color: #555;
+    transform: scale(1.1); /* Slight bounce effect */
 }
 
-/* Hide when user scrolls to the top */
+/* Show button with animation */
+#scrollToTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1); /* Smoothly expand */
+}
+
+/* Hide button smoothly */
 #scrollToTopBtn.hidden {
     opacity: 0;
     pointer-events: none;
-    transform: translateY(10px);
+    transform: scale(0.8);
 }
+
 
 
 
