@@ -787,6 +787,7 @@ button:hover {
 /* About Us Page */
 
 .sub-header{
+    min-height: 100%;
     height: 60vh;
     background-image: url(images/aboutbanner.png);
     background-position: center;
