@@ -4,11 +4,13 @@
     font-family: 'Poppins', sans-serif;
     -webkit-tap-highlight-color: transparent;
     outline: none;
+    box-sizing: border-box;
 }
 
 html,
 body{
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 .header {
