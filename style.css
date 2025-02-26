@@ -4,13 +4,11 @@
     font-family: 'Poppins', sans-serif;
     -webkit-tap-highlight-color: transparent;
     outline: none;
-    box-sizing: border-box;
 }
 
 html,
 body{
     overflow-x: hidden;
-    max-width: 100%;
 }
 
 .header {
@@ -795,8 +793,10 @@ button:hover {
     background-position: center;
     background-size: cover;
     text-align: center;
+    position: relative;
     color: #fff;
 }
+
 
 /* About Us Section */
 .about-us {
@@ -866,6 +866,7 @@ button:hover {
 
     .about-us .container {
         margin: 30px auto;
+        overflow-x: hidden;;
     }
 
     .about-us h1 {
