@@ -32,7 +32,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="tourist-spots.html">Tourist Spots</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="accomodations.html">Accommodations</a></li>
                 </ul>
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
@@ -269,7 +269,7 @@
             navLinks.style.right = "0";
         }
         function hideMenu(){
-            navLinks.style.right = "-200px";
+            navLinks.style.right = "-250px";
         }
         // end
 
@@ -333,6 +333,19 @@
                 top: 0,
                 behavior: "smooth"
             });
+        });
+
+        // Disable Zoom
+        document.addEventListener('wheel', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        }, { passive: false });
+
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && (event.key === '+' || event.key === '-' || event.key === '0')) {
+                event.preventDefault();
+            }
         });
     </script>
 
