@@ -1119,7 +1119,14 @@ button:hover {
         width: 90%;
         padding: 20px;
     }
+    .accommodation-section {
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
 }
+
+
 /* End of Accomodation */
 
 /* Scroll to top Button */
