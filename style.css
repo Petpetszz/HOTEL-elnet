@@ -155,7 +155,7 @@ nav .fa-solid {
 }
 
 /* ======= Responsive Styles (Max Width: 700px) ======= */
-@media (max-width: 700px) {
+@media (max-width: 700px), (max-width: 1200px) {
     /* Responsive Text */
     .text-box h1 {
         font-size: 28px;
@@ -201,6 +201,10 @@ nav .fa-solid {
 
     nav .fa-xmark {
         color: #000;
+    }
+
+    nav{
+        background: transparent;
     }
 }
 /* ----- end of navbar ----- */
@@ -555,7 +559,7 @@ button:hover {
 }
 
 /* Mobile Screens */
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-width: 1030px) {
     .facility-card {
         flex-direction: column; 
         max-width: 90%;
@@ -1101,7 +1105,7 @@ button:hover {
     background-color: #b3922c;
 }
 
-@media (max-width: 768px), (max-width: 1024px), (max-width: 1600px){
+@media (max-width: 768px), (max-width: 1024px), (max-width: 1520px){
     .accommodation {
         flex-direction: column !important; /* Force column layout */
     }
@@ -1121,6 +1125,14 @@ button:hover {
     }
     .accommodation-section {
         width: 80%;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 1920px), (max-width: 2200px){
+    .accommodation-section {
+        width: 67%;
         margin: 0 auto;
         padding: 50px 0;
     }
