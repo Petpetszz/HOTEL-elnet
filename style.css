@@ -202,14 +202,20 @@ nav .fa-solid {
     nav .fa-xmark {
         color: #000;
     }
+    
+    nav{
+        padding: 0px 20px 0 0;
+    }
 
     nav img{
         width: 150px;
         margin-top: 15px;
     }
+}
 
+@media (max-width: 1208px), (max-width: 1808px), (max-width: 2200px) {
     .header{
-        height: 150vh;
+        height: 55vh;
     }
 }
 /* ----- end of navbar ----- */
@@ -892,9 +898,11 @@ button:hover {
     .about-us ul li {
         font-size: 14px;
     }
+}
 
+@media (max-width: 1208px), (max-width: 1808px), (max-width: 2200px) {
     .sub-header{
-        height: 100vh;
+        height: 55vh;
     }
 }
 /* End of about Page*/
@@ -993,9 +1001,11 @@ button:hover {
     .card-container {
         grid-template-columns: 1fr; /* 1 column on small screens */
     }
+}
 
+@media (max-width: 1208px), (max-width: 1808px), (max-width: 2200px) {
     .tourist-header{
-        height: 100vh;
+        height: 55vh;
     }
 }
 
@@ -1143,8 +1153,11 @@ button:hover {
         margin: 0 auto;
         padding: 50px 0;
     }
+}
+
+@media (max-width: 1208px), (max-width: 1808px), (max-width: 2200px) {
     .accommodation-header{
-        height: 100vh;
+        height: 55vh;
     }
 }
 
