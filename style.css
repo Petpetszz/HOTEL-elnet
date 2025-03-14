@@ -1105,7 +1105,7 @@ button:hover {
     background-color: #b3922c;
 }
 
-@media (max-width: 768px), (max-width: 1024px), (max-width: 1520px){
+@media (max-width: 768px), (max-width: 1024px), (max-width: 1520px), (max-width: 1950px){
     .accommodation {
         flex-direction: column !important; /* Force column layout */
     }
@@ -1117,6 +1117,7 @@ button:hover {
 
     .accommodation img {
         width: 100%;
+        height: 80%;
     }
 
     .accommodation-info {
@@ -1125,14 +1126,6 @@ button:hover {
     }
     .accommodation-section {
         width: 80%;
-        margin: 0 auto;
-        padding: 50px 0;
-    }
-}
-
-@media (max-width: 1920px), (max-width: 2200px){
-    .accommodation-section {
-        width: 67%;
         margin: 0 auto;
         padding: 50px 0;
     }
