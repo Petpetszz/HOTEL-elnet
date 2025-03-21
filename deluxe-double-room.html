@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrosia Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <!-- AOS Library CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <!-------Banner------->
+    <section class="deluxe-header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fa-solid fa-phone"></i> +(63) 09670935136</span>
+                    <span><i class="fa-solid fa-envelope"></i> info@petrosiahotel.com</span>
+                </div>
+            </div>
+        </div>        
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tourist-spots.html">Tourist Spots</a></li>
+                    <li><a href="accomodations.html">Accommodations</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <!-------End of Banner------->
+    <div class="deluxe-container">
+        <div class="mySlides fade">
+            <img src="images/deluxe-double.jpg" alt="Nature">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/bathroom.jpg" alt="Snow">
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Navigation Dots -->
+    <div>
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <section class="room-intro">
+        <h2>Deluxe Double<span class="del-feat"> (Double Occupancy)</span></h2>
+        <p>Most of the rooms offer the best sunrise view. The dramatic transition of the city skyline from the day to night is something to look forward to.</p>
+        </section>
+
+    <section class="room-features-container">
+        <div class="feature-box">
+            <ul>
+                <li><img src="images/del-feature1.png" alt="Bed"> High-quality bed linens and duvet covers</li>
+                <li><img src="images/del-feature2.png" alt="Pillow"> Hypoallergenic Pillows</li>
+                <li><img src="images/del-feature3.png" alt="Toiletries"> Bath Toiletries</li>
+                <li><img src="images/del-feature4.png" alt="Shower"> Hot & Cold Shower</li>
+                <li><img src="images/del-feature5.png" alt="Hair Dryer"> Hair Dryer</li>
+                <li><img src="images/del-feature6.png" alt="Mirror"> Vanity Mirror</li>
+                <li><img src="images/del-feature7.png" alt="Mini Chiller"> Mini Chiller</li>
+                <li><img src="images/del-feature8.png" alt="TV"> Flat Screen TV (with HDMI and USB Ports and Premium Cable Channels)</li>
+            </ul>
+        </div>
+        <div class="feature-box">
+            <ul>
+                <li><img src="images/del-feature9.png" alt="Key Card"> Key Card and Lock System</li>
+                <li><img src="images/del-feature10.png" alt="Safe"> In-room safe</li>
+                <li><img src="images/del-feature11.png" alt="AC"> Individually Controlled Air Conditioning Units</li>
+                <li><img src="images/del-feature12.png" alt="Smoke Alarm"> Smoke Alarm</li>
+                <li><img src="images/del-feature13.png" alt="Telephone"> Telephone</li>
+                <li><img src="images/del-feature14.png" alt="Desk"> Desk Space for Working</li>
+                <li><img src="images/del-feature15.png" alt="Power"> Easily Accessible Power Outlets</li>
+                <li><img src="images/del-feature16.png" alt="Reading Light"> Optimal Reading Light</li>
+            </ul>
+        </div>
+    </section>
+    <div class="button-container">
+        <a href="book-now.html" class="book-now-btn">BOOK THIS ROOM!</a>
+    </div>
+    <!-----End of Gallery Section----->
+    
+    
+
+
+    <!-----Footer Section----->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Find & Book</h4>
+                <ul>
+                    <li><a href="#">Our Destinations</a></li>
+                    <li><a href="#">Find a Reservation</a></li>
+                    <li><a href="#">Meetings & Events</a></li>
+                    <li><a href="#">Restaurant & Bars</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Petrosia Circle</h4>
+                <ul>
+                    <li><a href="#">Programme Overview</a></li>
+                    <li><a href="#">Join Petrosia Circle</a></li>
+                    <li><a href="#">Account Overview</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>About Petrosia</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Hotel Brands</a></li>
+                    <li><a href="#">Petrosia Centre</a></li>
+                    <li><a href="#">Residences</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>More</h4>
+                <ul>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Global Citizenship</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2025 Petrosia Hotel. All rights reserved.</p>
+    </div>
+    <!-----End of Footer Section----->
+    
+    <button id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script>
+        // JavaSCript for toggle menu
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-250px";
+        }
+        // end
+
+
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        window.addEventListener("scroll", function() {
+            if (window.scrollY > 300) {
+                scrollToTopBtn.classList.add("show");
+                scrollToTopBtn.classList.remove("hidden");
+            } else {
+                scrollToTopBtn.classList.add("hidden");
+                scrollToTopBtn.classList.remove("show");
+            }
+        });
+
+        scrollToTopBtn.addEventListener("click", function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+        //
+
+        // Function to show slides
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].classList.remove("active");
+            }
+
+            slides[slideIndex - 1].style.display = "block";  
+            dots[slideIndex - 1].classList.add("active");
+
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+
+        function currentSlide(n) {
+            slideIndex = n - 1;
+            showSlides();
+        }
+    </script>
+    
+</body>
+</html>

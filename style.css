@@ -1161,8 +1161,132 @@ button:hover {
     }
 }
 
-
 /* End of Accomodation */
+
+/* Deluxe-Single-Room */
+.deluxe-header{
+    min-height: 100%;
+    height: 60vh;
+    background-image: url(images/del-header.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.deluxe-container {
+    max-width: 1300px;
+    position: relative;
+    margin: auto;
+    border: 20px solid white; /* White border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    margin-top: 40px;
+}
+
+/* Hide slides initially */
+.mySlides {
+    display: none;
+}
+
+/* Image styling to prevent stretching */
+.mySlides img {
+    width: 100%;
+    height: 850px; /* Consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+    border-radius: 0px; /* Adjust if needed */
+}
+
+/* Active indicator */
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation: fade 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+}
+
+/* Responsive text */
+@media only screen and (max-width: 300px) {
+    .text { font-size: 11px; }
+}
+
+
+.room-features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.feature-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    width: 100%;
+}
+
+.feature-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-box li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.feature-box img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.room-intro{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.room-intro p{
+    font-size: 20px;
+}
+
+.del-feat{
+    color: #EFDCAB;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.book-now-btn {
+    background-color: #EFDCAB;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.book-now-btn:hover {
+    background-color: #d8c097; /* Darker version of #EFDCAB */
+}
+/* End of Deluxe-Single-Room */
 
 /* Scroll to top Button */
 #scrollToTopBtn {
